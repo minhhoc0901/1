@@ -1,0 +1,47 @@
+
+.location-list-page {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  text-align: center;
+}
+
+.location-list-page h1 {
+  font-size: 32px;
+  color: #1a2b49;
+  margin-bottom: 30px;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.location-grid img {
+  width: 100%;
+  height: auto;
+
+}
+.location-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.location-card:hover {
+  transform: scale(1.05);
+  background-color: #e0e0e0;
+}
+
+.location-card h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.location-card p {
+  font-size: 16px;
+  color: #555;
+}
